@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agencias",
+  "info": {
+    "name": "agencia"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
